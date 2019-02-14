@@ -1,0 +1,17 @@
+	<div class="interface alt">
+		<i>a</i>
+		<form action="../cgi-bin/cuser.cgi" method="POST">
+			<h2>Alterar informação</h2><br>
+			<select class="select" name="var">
+				<option disabled selected>Selecione a informação a ser alterada:</option>
+				<option value="type">Tipo de usuário</option>
+				<option value="user">Nome de usuário</option>
+				<option value="pass">Senha</option>
+				<option value="e-mail">Endereço de e-mail</option>
+			</select><br><br>
+			<input type="text" name="user" placeholder="Nome de usuário"><br>
+			<input type="text" name="inf" placeholder="Informação a ser alterada"><br>
+			<input type="text" name="cinf" placeholder="Confirmar informação"><br><br>
+			<input class="submit-button" type="submit" value="Alterar">
+		</form>
+	</div>

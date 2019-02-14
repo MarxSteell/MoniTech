@@ -1,0 +1,54 @@
+			<ul id="sidebar-menu">
+				<li><a href="#">
+					<label for="main"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="main"><input type="submit" id="main" class="hidden" value="send"></form>Página inicial
+				</a></li>
+				<li><a>Administrar equipamentos</a>
+					<ul>
+						<li><a href="#">
+						<label for="aequip"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/aequip.html"><input type="submit" id="aequip" class="hidden" value="send"></form>Adicionar equipamento
+						</a></li>
+						<li><a href="#">
+						<label for="requip"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/requip.html"><input type="submit" id="requip" class="hidden" value="send"></form>Remover equipamento
+						</a></li>
+						<li><a href="#">
+						<label for="vequip"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/usr/lib/cgi-bin/vequip.cgi"><input type="submit" id="vequip" class="hidden" value="send"></form>Visualizar equipamentos
+						</a></li>
+						<li><a href="#">
+						<label for="cequip"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/cequip.html"><input type="submit" id="cequip" class="hidden" value="send"></form>Alterar informação
+						</a></li>
+					</ul>
+				</li>
+				<li><a>Administrar usuários</a>
+					<ul>
+						<li><a href="#">
+						<label for="auser"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/auser.html"><input type="submit" id="auser" class="hidden" value="send"></form>Adicionar usuário
+						</a></li>
+						<li><a href="#">
+						<label for="ruser"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/ruser.html"><input type="submit" id="ruser" class="hidden" value="send"></form>Remover usuário
+						</a></li>
+						<li><a href="#">
+						<label for="vuser"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/usr/lib/cgi-bin/vuser.cgi"><input type="submit" id="vuser" class="hidden" value="send"></form>Visualizar usuários
+						</a></li>
+						<li><a href="#">
+						<label for="cuser"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/cuser.html"><input type="submit" id="cuser" class="hidden" value="send"></form>Alterar informação
+						</a></li>
+					</ul>
+				</li>
+				<li><a>Histórico de ações</a>
+					<ul>
+						<li><a href="#">
+						<label for="equip"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/usr/lib/cgi-bin/log/equip.cgi"><input type="submit" id="equip" class="hidden" value="send"></form>Equipamentos
+						</a></li>
+						<li><a href="#">
+						<label for="user"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/usr/lib/cgi-bin/log/user.cgi"><input type="submit" id="user" class="hidden" value="send"></form>Usuários
+						</a></li>
+						<li><a href="#">
+						<label for="login"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/usr/lib/cgi-bin/log/login.cgi"><input type="submit" id="login" class="hidden" value="send"></form>Acessos
+						</a></li>
+					</ul>
+				</li>
+				<li><a href="#">
+					<label for="doc"><form action="index.cgi" method="POST"><input type="hidden" name="val" value="/var/www/html/pages/doc.html"><input type="submit" id="doc" class="hidden" value="send"></form>Documentação
+				</a></li>
+				<li class="sair"><a href="logout.cgi">Sair</a></li>
+			</ul>
